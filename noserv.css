@@ -1,0 +1,19 @@
+body {line-height:1.8}
+h2 {font-size:20px;margin:0;padding:0 15px}
+h3 {font-size:16px;margin:0;padding:0 8px}
+textarea {display:block;width:100%;box-sizing:border-box;margin:3px;height:50px;font-size:11px;font-family:tahoma,arial,sans-serif}
+#chat-screen-wp {
+  position:relative;
+  height: 140px; margin: 0 3px; padding: 18px 5px 5px;
+  border:1px solid #dfdfdf;
+  overflow-y:scroll;
+  font-size: 12px;
+}
+#status {float:right; font-weight:normal;color:#9E9E9E}
+#ct     {text-align:right}
+
+div.wrap  {clear: both; padding:4px 8px}
+div.info  {position:absolute;right:0;top:0;padding:5px 18px;}
+div.other {color: #0060A0;float:left;padding:5px 18px;background:#FAFAFA;border-radius:8px;}
+div.me    {color: #EB088C;float:right;padding:5px 18px;background:#F4FAFF;border-radius:8px;}
+span.who  {display: inline-block;margin-right:5px;width:30px;text-align:center;display:none;}
